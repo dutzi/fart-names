@@ -1,0 +1,16 @@
+{
+  "name": "fart-names",
+  "version": "1.0.2",
+  "description": "A list of fart names, taken from fartnames.com",
+  "repository": {
+    "url": "https://github.com/dutzi/fart-names"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --esModuleInterop index.ts",
+    "deploy": "npm run build && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dutzi",
+  "license": "ISC"
+}
